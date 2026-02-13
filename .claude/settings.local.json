@@ -1,0 +1,11 @@
+{
+  "permissions": {
+    "allow": [
+      "WebFetch(domain:docs.open-metadata.org)",
+      "WebFetch(domain:openlineage.io)",
+      "WebFetch(domain:cdn.jsdelivr.net)",
+      "Bash(python -m http.server:*)",
+      "Bash(curl:*)"
+    ]
+  }
+}
